@@ -1,4 +1,5 @@
-Code that trains an autonomous car to drive autonomously by watching a user
+Code that trains an autonomous car to drive autonomously by watching how a user drives the car.
+If you want to see the code running on a small car heres a video: https://www.youtube.com/watch?v=SFpCq2t-EWY
 
 All the code in /Application can be run on a desktop / laptop.
 Start the app by running application.py.
@@ -15,4 +16,4 @@ network_test was a failed attempt to model a Pytorch network using numpy. It use
 The folder nn contains all the code from a numpy convolutional network library I used, available here: https://github.com/Eyyub/numpy-convnet
 The only modification I made was to add a TanH activation function, which I ended up not using, instead favouring the sigmoid function
 
-All the other code is run on a raspberry Pi, that controls a small car
+All the other code is run on a raspberry Pi, which controls the car
